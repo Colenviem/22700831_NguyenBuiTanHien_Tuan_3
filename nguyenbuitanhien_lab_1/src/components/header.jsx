@@ -1,6 +1,7 @@
 import '../css/header.css'
 import logo from '../img/chefify.png'
 import check from '../img/check.png'
+import avater from '../img/avatar.png'
 
 const header = () => {
     return (
@@ -22,6 +23,10 @@ const header = () => {
             <div className="button">
                 <img src={check} alt="" />
                 <p>Your Recipe Box</p>
+            </div>
+
+            <div className="avatar">
+                <img src={avater} alt="" />
             </div>
         </div>
     );
