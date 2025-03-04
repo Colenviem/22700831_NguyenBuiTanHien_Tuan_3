@@ -36,8 +36,6 @@
 .header-menu {
     top: 6px; 
     left: 636px; 
-    width: 458px; 
-    height: 68px; 
     display: flex; 
     align-items: center; 
     font-family: Manrope; /* Body */
